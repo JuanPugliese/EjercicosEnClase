@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name = "Juan Pugliese" content = "Formulario HTML"> 
+    <meta name="form" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h2> <a href="../inicio.html" target="_blank">Inicio</a> </h2>
+
+    <form name = "DatosBasicos" action = "../inicio.html" method="">
+        <h1><img src="../assets/img/undraw_fill_form_re_cwyf.svg" width="200px"> Datos Básicos </h1>
+
+            <label for="perfil">Describa su perfil</label><br>
+            <textarea id="perfil" rows="5" cols="50" name="perfil"></textarea> <br><br>
+
+            <label for="tipoId">Tipo de identificación:</label>
+            <select id="tipoId" name="tipoId">
+                <option value="0" selected=""> Seleccione un Tipo de Documento</option>
+                <option value="NUIP">Número Único de identificación </option>   
+                <option value="Tarjeta de identidad"> Tarjeta de identidad </option>    
+                <option value="Cédula de Ciudadanía"> Cédula de Ciudadanía </option>    
+                <option value="Cédula de Extranjería"> Cédula de Extranjería </option>                 
+            </select><br><br>
+            
+            <label for="ciudad">¿En qué ciudad vives?</label>
+            <select name="ciudad">
+                <option selected value="0"> Elige una ciudad</option>
+                <optgroup label="Cundinamarca">
+                <option value="1">Bogotá</option>
+                <option value="2">Chia</option>
+                </optgroup>
+                <optgroup label="Antioquia">
+                <option value="4">Medellin</option>
+                <option value="5">Envigado</option>
+                <optgroup label="Santander">
+                    <option value="4">Bucaramanga</option>
+                    <option value="5">San Gil</option>
+                </optgroup>
+            </select><br><br>
+
+            <label for="numId">Número de identificación:</label>
+            <input id = "numId"><br><br>
+
+            <label for = "apellidos">Apellidos:</label>
+            <input id = "apellidos" type="text" name="apellidos"><br><br>
+
+            <label for="nom"> Nombres: </label>
+            <input id = "nom" type="text" name="nom"><br><br>
+
+            <label for="gen">Género</label>
+            <input id = "genF" type="radio" name="gen">Femenino
+            <input id = "genM" type="radio" name="gen" checked>Masculino<br><br>
+
+            <label for="estCivil"> Estado Civil: </label>
+            <input id = "estCivilSoltero" type="radio" name="estCivil"> Soltero
+            <input id = "estCivilCasado" type="radio" name="estCivil"> Casado
+            <input id = "estCivilUnionLibre" type="radio" name="estCivil"> Union Libre
+            <input id = "estCivilViudo" type="radio" name="estCivil"> Viudo<br><br>
+
+            <label for="numTel"> Número telefónico de contacto: </label>
+            <input id = "numTel"><br><br>
+
+            <label for="dir"> Dirección de tu residencia: </label>
+            <input id = "dir" type="text" name="dir"><br><br>
+
+            <label for="correo"> Correo electrónico de contacto </label>
+            <input id = "correo"><br><br>
+
+            <label for="pass"> Contraseña: </label>
+            <input id = "pass" type="password" name="pass"><br><br>
+
+            <label>¿Qué te gusta hacer en tu tiempo libre?</label>
+
+            <input type="checkbox" id="series" name="series">
+            <label for="series">Ver Series</label>
+
+            <input type="checkbox" id="jugar" name="jugar">
+            <label for="jugar">Jugar Videojuegos</label>
+
+            <input type="checkbox" id="deportes" name="deportes">
+            <label for="deportes">Hacer Deporte</label><br><br>
+
+            <label for="archivo"> Sube aquí tu archivo</label>
+            <input type="file" name="archivo">
+            
+
+    </form>
+</body>
+</html>
