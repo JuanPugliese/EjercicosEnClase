@@ -1,24 +1,28 @@
-/* Estilo para la barra de navegación */
 .navbar {
-    background-color: #333; /* Color de fondo */
-    padding: 10px 0; /* Espaciado interno arriba y abajo */
-    list-style-type: none; /* Quita los puntos de la lista */
+    background-color: #ff6600; 
+    padding: 10px 0; 
+    list-style-type: none; 
     margin: 0;
     padding: 0;
+    text-align: center; 
 }
 
 .navbar li {
-    display: inline; /* Muestra los elementos en línea */
-    margin-right: 20px; /* Espaciado entre elementos */
+    display: inline-block; 
+    margin: 0 10px; 
 }
 
 .navbar li a {
-    text-decoration: none; /* Quita la decoración de texto */
-    color: #fff; /* Color de texto */
-    font-weight: bold; /* Texto en negrita */
-    font-size: 18px; /* Tamaño de fuente */
+    text-decoration: none; 
+    color: #fff; 
+    font-weight: bold; 
+    font-size: 18px;
+    padding: 10px 20px; 
+    border-radius: 25px; 
+    background-color: #333; 
 }
 
 .navbar li a:hover {
-    color: #ff6600; /* Color de texto al pasar el mouse */
+    color: #ff6600; 
+    background-color: #fff; 
 }
