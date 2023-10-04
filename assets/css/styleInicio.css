@@ -1,0 +1,24 @@
+/* Estilo para la barra de navegación */
+.navbar {
+    background-color: #333; /* Color de fondo */
+    padding: 10px 0; /* Espaciado interno arriba y abajo */
+    list-style-type: none; /* Quita los puntos de la lista */
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline; /* Muestra los elementos en línea */
+    margin-right: 20px; /* Espaciado entre elementos */
+}
+
+.navbar li a {
+    text-decoration: none; /* Quita la decoración de texto */
+    color: #fff; /* Color de texto */
+    font-weight: bold; /* Texto en negrita */
+    font-size: 18px; /* Tamaño de fuente */
+}
+
+.navbar li a:hover {
+    color: #ff6600; /* Color de texto al pasar el mouse */
+}
