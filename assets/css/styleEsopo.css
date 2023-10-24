@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+.esopo
+{
+    width: 800px;
+    background-color:#15A085;
+    margin: 50px auto;
+    border:4px dashed #FCFC34;
+    padding: 30px 30px 30px 30px;
+    color:#FFFFFF
+}
+
+.esopo h1
+{ 
+    color: #FFFFFF; 
+}
+
+.esopo img
+{
+    width: 180px;
+    float: left;
+    margin-right: 10px;
+}
+
+.esopo p
+{
+    text-align: justify;
+    color: #FFFFFF
+}
+    
+.homero{
+    font-family: 'Lato', sans-serif;
+    font-style:italic;
+    text-decoration:underline;
+    color:#FCFC34;
+}
+
+
+
+/*nav bar*/
+
+.navbar {
+    background-color: #ff6600; 
+    padding: 10px 0; 
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    text-align: center; 
+}
+
+.navbar li {
+    display: inline-block; 
+    margin: 0 10px; 
+}
+
+.navbar li a {
+    text-decoration: none; 
+    color: #fff; 
+    font-weight: bold; 
+    font-size: 18px;
+    padding: 10px 20px; 
+    border-radius: 25px; 
+    background-color: #333; 
+}
+
+.navbar li a:hover {
+    color: #ff6600; 
+    background-color: #fff; 
+}
